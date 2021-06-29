@@ -35,9 +35,11 @@ function more(){
     var  m = document.getElementById("more")
     if (a == 1){
         m.style.visibility = "visible"
+        m.style.opacity = "1"
         return a = 0
     } else{     
         m.style.visibility = "hidden"
+        m.style.opacity = "0"
         return a = 1
     }
 }
