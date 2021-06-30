@@ -20,13 +20,13 @@ header{
 
 #headercontainer{
     font-size: x-large;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-top: 40px;
     color: white;
 }
 
 #name{
-    border: 2px solid whitesmoke;
+    border: 2px solid white;
     padding: 2px;
     border-radius: 10px;
 }
@@ -120,26 +120,28 @@ header{
 
 @media only screen and (max-width: 768px){
     #about{
-        height: 40%;
+        padding-top: 20px;
+        height: 30%;
     }
     #abouttxt{
         max-height: 90%;
         margin-top: 0;
         width: 60%;
-        font-size: x-large;
+        font-size: 18px;
     }
     header{
-        height: 120px;
+        height: 100px;
     }
     #navigation{
-        font-size: 20px;
+        padding-top: 8px;
+        font-size: 17px;
     }
     #name{
-        font-size: x-large;
+        font-size: 19px;
     }
     #headercontainer{
         padding-left: 10px;
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
 }
