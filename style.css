@@ -68,6 +68,7 @@ header{
 }
 
 #abouttxt{
+    background-color: rgba(114, 114, 114, 0.5);
     border: 4px solid white;
     padding: 4px;
     border-radius: 10px;
@@ -115,4 +116,28 @@ header{
 #more :hover{
     background-color: white;
     color: black;
+}
+
+@media only screen and (max-width: 768px){
+    #about{
+        height: 30%;
+    }
+    #abouttxt{
+        margin-top: 0;
+        width: 60%;
+        font-size: xx-large;
+    }
+    header{
+        height: 150px;
+    }
+    #navigation{
+        font-size: xx-large;
+    }
+    #name{
+        font-size: xx-large;
+    }
+    #headercontainer{
+        padding-top: 57px;
+    }
+
 }
