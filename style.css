@@ -119,12 +119,17 @@ header{
 }
 
 @media only screen and (max-width: 768px){
+    #more{
+        padding-top: -10px;
+        margin-right: 5px;
+        width: 100px;
+    }
     #about{
         padding-top: 20px;
         height: 30%;
     }
     #abouttxt{
-        margin-top: 20px;
+        margin-top: 15px;
         margin-left: 10px;
         max-height: 90%;
         margin-top: 0;
@@ -132,18 +137,19 @@ header{
         font-size: 18px;
     }
     header{
-        height: 100px;
+        height: 85px;
     }
     #navigation{
-        padding-top: 8px;
-        font-size: 15px;
+        padding-right: 2px;
+        padding-top: 9px;
+        font-size: 14px;
     }
     #name{
-        font-size: 17px;
+        font-size: 15px;
     }
     #headercontainer{
-        padding-left: 5px;
-        padding-top: 30px;
+        padding-left: 3px;
+        padding-top: 25px;
     }
 
 }
