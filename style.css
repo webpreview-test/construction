@@ -120,24 +120,26 @@ header{
 
 @media only screen and (max-width: 768px){
     #about{
-        height: 30%;
+        height: 40%;
     }
     #abouttxt{
+        max-height: 90%;
         margin-top: 0;
         width: 60%;
-        font-size: xx-large;
+        font-size: x-large;
     }
     header{
-        height: 150px;
+        height: 120px;
     }
     #navigation{
-        font-size: xx-large;
+        font-size: 20px;
     }
     #name{
-        font-size: xx-large;
+        font-size: x-large;
     }
     #headercontainer{
-        padding-top: 57px;
+        padding-left: 10px;
+        padding-top: 40px;
     }
 
 }
