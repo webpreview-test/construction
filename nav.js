@@ -27,8 +27,10 @@ $("#more").mouseover(function () {
 });
 $("#more").mouseleave(function () {
     hovering = false;
-    m.style.visibility = "hidden";
-    m.style.opacity = "0";
+    setTimeout (() => {
+        m.style.visibility = "hidden";
+        m.style.opacity = "0";
+    }, 100);
 });
 
 function more(){
