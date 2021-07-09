@@ -1,2 +1,3 @@
 #Alternate default index page
 DirectoryIndex home.html
+Redirect /index.html /home.html
