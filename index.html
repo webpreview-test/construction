@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src = "jquery-3.6.0.min.js"></script>
+        <title>Company name</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <header>
+        <div id = "headercontainer">
+            <b id = "name">Company name</b>
+            <div id = "navigation">
+                <b id = "current" style = "padding: 3px; padding-right: 2px;">Home</b>
+                <a style = "padding-right: 2px;"href="Somewhere">Locations</a>
+                <a href="somewhere" style = "padding-right: 2px;">About</a>
+                <a id = "morebtn" href="javascript:more()">More</a>
+            </div>
+        </div>
+        <div id = "more">
+            <a href="contact.html" style="text-decoration: none;">Get a quote</a>
+            <p>Page2</p>
+            <p>Page3</p>
+        </div>
+    </header>
+    <body>
+        <script src="nav.js"></script>
+        <div class = "container">
+            <div id = "about">
+                <div id = abouttxt>
+                    <b>About</b>
+                    <p>About us blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. to learn more go <a href="somewhere">here</a></p>
+                </div>
+            </div>
+            <div id = "whatwedo">
+                <p id="left">services that we provide</p>
+                <p id="middle">services that we provide</p>
+                <p id="right">services that we provide</p>           
+            </div>
+            <footer>
+                <div class = "leftsidefooter">
+                    <p>&copy Companyname</p>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
