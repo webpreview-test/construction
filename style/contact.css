@@ -1,0 +1,169 @@
+html, body{
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin-top: 0;
+    margin-left: 0;
+    display: inline-block;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+#headercontainer{
+    font-size: x-large;
+    padding-left: 10px;
+    padding-top: 40px;
+    color: white;
+}
+
+#name{
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+#navigation{
+    padding-right: 20px;
+    font-size: large;
+    float: right;
+}
+
+#navigation :link, #navigation :visited, #current{
+    transition: .2s ease-in;
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+#navigation, #current{
+    cursor: pointer;
+}
+#navigation :hover{
+    border-radius: 7px;
+    background: white;
+    color: black;
+}
+
+button[type="submit"]{
+    font-size: larger;
+    color: tomato;
+    background-color: white;
+    width: 100%;
+    border: none;
+    height: 50px;
+}
+
+.form-group input, .form-group textarea{
+    font-size: 18px;
+    resize: vertical;
+    width: 100%;
+    border: 1px solid rgba(155, 155, 155, 0.324);
+}
+
+.form-group{
+    color: tomato;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#form{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.605);
+    background-color: rgb(101, 101, 101);
+    width: 40%;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 87%;
+    height: 87%;
+    width: 100%;
+
+}
+
+#more{
+    transition: 0.5s ease-in;
+    opacity: 0;
+    border-radius: 0px 0px 0px 25px;
+    border:  2px solid white;
+    text-align: center;
+    margin-right: 20px;
+    float: right;
+    position: relative;
+    z-index: 4;
+    color: white;
+    width: 150px;
+    min-height: 100px;
+    background-color: black;
+    visibility: hidden;
+}
+
+#more p{
+    transition: 0.2s ease-in;
+}
+
+#more :hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    border-top: 1px solid white;
+    color: white;
+    padding: 1px;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+@media only screen and (max-width: 768px){
+    #more p{
+        border-radius: 10px;
+        padding: 3px;
+        display: inline;
+    }
+    #more{
+        
+        margin-left: auto;
+        margin-right: auto;
+        font-size: larger;
+        border-radius: 0px 0px 10px 10px;
+        float: none;
+        min-height: fit-content;
+        height: 50px;
+        width: 90%;
+    }
+    #navigation{
+        float: none;
+        padding-left: 5px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    #name{
+        display: inline-block;
+        font-size: 30px;
+    }
+    #headercontainer{
+        padding-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        height: 150px;
+    }
+}
