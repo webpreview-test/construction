@@ -95,6 +95,10 @@ button[type="submit"]{
 
 }
 
+#more :link, #more :visited{
+    color: black;
+}
+
 #more{
     transition: 0.5s ease-in;
     opacity: 0;
@@ -112,7 +116,7 @@ button[type="submit"]{
     visibility: hidden;
 }
 
-#more p{
+#more p, a{
     transition: 0.2s ease-in;
 }
 

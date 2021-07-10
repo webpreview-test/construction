@@ -86,6 +86,10 @@ header{
     text-decoration: none;
 }
 
+#more :link, #more :visited{
+    color: black;
+}
+
 #more{
     transition: 0.5s ease-in;
     opacity: 0;
